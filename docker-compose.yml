@@ -1,0 +1,9 @@
+services:
+  dbot:
+    build:
+     context: .
+     dockerfile: Dockerfile
+    container_name: record_dbot
+    image: alpine3.14
+    dns:
+    - '8.8.8.8'
