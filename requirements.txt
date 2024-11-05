@@ -1,0 +1,4 @@
+openai-whisper
+discord
+py-cord==2.3.2
+python-dotenv
